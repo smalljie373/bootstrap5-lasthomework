@@ -1,0 +1,34 @@
+.banner-img{
+    height: 215px;
+    background-image: url('/images/banner_service-sm.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-top: 20px;
+    
+}
+.banner-background-img{
+    background-image: url('/images/lightpaperfibers.png');
+    border-top: 2px solid $warning;
+}
+.service-img{
+    width: 28%;
+}
+
+@include media-breakpoint-up(lg){
+    .banner-img{
+        height: 288px;
+        background-image: url('/images/banner.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+       // margin-bottom: 100px;
+        
+    }
+    .banner-background-img{
+        border-top: 0px;
+    }
+    .service-img{
+        width: auto;
+    }
+}

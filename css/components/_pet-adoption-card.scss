@@ -1,0 +1,25 @@
+.card{
+    border-radius: 24px;
+}
+.card-img{
+    position: relative;
+    &:hover{
+        .pet-img-hover{
+            opacity: 1;
+        }
+        a{
+            color: $warning !important;
+        }
+    }
+}
+
+.pet-img ,.pet-img-hover{
+    border-radius: 24px 24px 0px 0px;
+}
+.pet-img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .3s ease;
+}

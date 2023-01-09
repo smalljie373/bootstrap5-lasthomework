@@ -1,0 +1,32 @@
+.header-img{
+    background-image: url('/images/home_mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    max-width: 100%;
+    min-height: 635px;
+}
+.header-text-stroke{
+    display: none;
+    color:$white;
+    position: absolute;
+    -webkit-text-stroke: 10px $white;
+}
+.header-text{
+    display: none;
+    color: #848975;
+    position: absolute;
+}
+@include media-breakpoint-up(lg){
+    .header-img{
+        height: 810px;
+        background-image: url('/images/home.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:25% 0;
+    }
+    .header-text,.header-text-stroke{
+        display:block;
+    }
+} 
