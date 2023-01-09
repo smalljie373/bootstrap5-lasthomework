@@ -1,6 +1,6 @@
 .banner-img{
     height: 215px;
-    background-image: url('/images/banner_service-sm.png');
+    background-image: url('../images/banner_service-sm.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -8,7 +8,7 @@
     
 }
 .banner-background-img{
-    background-image: url('/images/lightpaperfibers.png');
+    background-image: url('../images/lightpaperfibers.png');
     border-top: 2px solid $warning;
 }
 .service-img{
@@ -18,7 +18,7 @@
 @include media-breakpoint-up(lg){
     .banner-img{
         height: 288px;
-        background-image: url('/images/banner.png');
+        background-image: url('../images/banner.png');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center center;

@@ -12151,7 +12151,7 @@ textarea.form-control-lg {
 }
 
 .header-img {
-  background-image: url("/images/home_mobile.png");
+  background-image: url("../images/home_mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -12175,7 +12175,7 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .header-img {
     height: 810px;
-    background-image: url("/images/home.png");
+    background-image: url("../images/home.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12255,7 +12255,7 @@ textarea.form-control-lg {
 
 .banner-img {
   height: 215px;
-  background-image: url("/images/banner_service-sm.png");
+  background-image: url("../images/banner_service-sm.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -12263,7 +12263,7 @@ textarea.form-control-lg {
 }
 
 .banner-background-img {
-  background-image: url("/images/lightpaperfibers.png");
+  background-image: url("../images/lightpaperfibers.png");
   border-top: 2px solid #ffc107;
 }
 
@@ -12274,7 +12274,7 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .banner-img {
     height: 288px;
-    background-image: url("/images/banner.png");
+    background-image: url("../images/banner.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -12335,10 +12335,10 @@ textarea.form-control-lg {
   .speech-img {
     width: 140px;
     height: 152.2px;
-    background-image: url("/images/btn.png");
+    background-image: url("../images/btn.png");
   }
   .speech-img:hover {
-    background-image: url("/images/btn2.png");
+    background-image: url("../images/btn2.png");
   }
   .speech-frame {
     position: relative;
