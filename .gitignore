@@ -500,3 +500,5 @@ node_modules/@popperjs/core/dist/cjs/enums.js.map
 node_modules/@popperjs/core/dist/cjs/enums.js.flow
 node_modules/@popperjs/core/dist/cjs/enums.js
 node_modules/.package-lock.json
+package-lock.json
+package.json
